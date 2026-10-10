@@ -35,14 +35,6 @@ AstrBot 插件：随机发送兽图，并分页展示近期兽展列表（每页
 | 文档 | https://docs.furrycons.cn/docs/api/event/recent |
 | 鉴权 | 请求头 `Authorization`，值为上方配置项 `FCC 接口令牌` |
 
-**请求参数**
-
-| 参数 | 值 | 说明 |
-| --- | --- | --- |
-| `keepOld` | `true` | 近期无数据时返回过期数据填充 |
-| `current` | 1, 2, 3 … | 页码 |
-| `pageSize` | 50 | 单次请求条数 |
-
 ## 安装
 
 1. 将本插件目录放入 AstrBot 的插件目录（如 `data/plugins/furry/`）。
