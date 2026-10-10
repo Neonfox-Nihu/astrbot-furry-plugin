@@ -1,5 +1,18 @@
-name: "furry"
-display_name: "兽聚日历"
-version: "2.2.0"
-author: "NeonFox"
-desc: "随机兽图与兽展日历信息"
+name: astrbot_plugin_furry
+display_name: 兽聚日历
+short_desc: 随机兽图 + 近期兽展日历
+desc: |-
+  随机发送兽图，并以合并转发形式分页展示近期兽展（Furry Convention）列表。
+  展会卡片包含封面图、主办方 Logo、时间、地区与详情链接，每页 5 条，发送「下一页」可翻页。
+version: 2.2.0
+author: NeonFox
+repo: https://github.com/ZZHCRD/astrbot-furry-plugin
+astrbot_version: ">=3.4.0"
+support_platforms:
+  - aiocqhttp
+social_link: https://github.com/ZZHCRD
+tags:
+  - 兽展
+  - 兽图
+  - Furry
+  - 图片

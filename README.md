@@ -37,7 +37,7 @@ AstrBot 插件：随机发送兽图，并分页展示近期兽展列表（每页
 
 ## 安装
 
-1. 将本插件目录放入 AstrBot 的插件目录（如 `data/plugins/furry/`）。
+1. 将本插件目录放入 AstrBot 的插件目录（目录名 `astrbot_plugin_furry`，如 `data/plugins/astrbot_plugin_furry/`）。
 2. 重启 AstrBot，或在 WebUI 的插件管理中重载插件。
 3. 打开插件配置，填入 `FCC 接口令牌`，保存。
 4. 在群聊或私聊发送 `兽聚` 即可使用。
