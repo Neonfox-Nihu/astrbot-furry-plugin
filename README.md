@@ -26,7 +26,6 @@ AstrBot 插件：随机发送兽图，并分页展示近期兽展列表（每页
 | --- | --- |
 | 接口 | `GET https://api.furry.ist/furry-img/?format=json` |
 | 鉴权 | 无 |
-| 使用字段 | `url`（图片直链） |
 
 ### 2. 兽展日历 · 最近展会
 
@@ -44,17 +43,16 @@ AstrBot 插件：随机发送兽图，并分页展示近期兽展列表（每页
 | `current` | 1, 2, 3 … | 页码 |
 | `pageSize` | 50 | 单次请求条数 |
 
-**使用字段**
+## 安装
 
-| 字段 | 说明 |
-| --- | --- |
-| `total` / `current` / `pageSize` | 分页信息 |
-| `data[].id` | 展会 ID（去重） |
-| `data[].name` | 展会名称 |
-| `data[].scale` | 规模 |
-| `data[].startDate` / `data[].endDate` | 起止时间 |
-| `data[].region` / `data[].address` | 地区 · 地址 |
-| `data[].thumbnail` | 展会封面图 |
-| `data[].organization.name` | 主办方名称 |
-| `data[].organization.logoUrl` | 主办方 Logo |
-| `data[].url` | 展会详情页链接 |
+1. 将本插件目录放入 AstrBot 的插件目录（如 `data/plugins/furry/`）。
+2. 重启 AstrBot，或在 WebUI 的插件管理中重载插件。
+3. 打开插件配置，填入 `FCC 接口令牌`，保存。
+4. 在群聊或私聊发送 `兽聚` 即可使用。
+
+## 免责声明
+
+- 兽图与展会数据均来自第三方接口，版权归各自所有者所有，本插件仅作数据展示用途。
+- 接口返回的展会宣传图体积可能较大，插件仅转发图片直链，不下载、不缓存图片本体。
+- 接口字段可能随时增删，若上游变更导致异常，请以官方文档为准。
+- 使用本插件及其数据的任何后果，由使用者自行承担。
