@@ -1,0 +1,8 @@
+{
+  "FCC 接口令牌": {
+    "description": "兽展日历（FCC）接口令牌",
+    "hint": "前往 https://dashboard.furrycons.cn 应用中心创建应用后获取 API Key，用于调用兽展接口",
+    "type": "string",
+    "default": ""
+  }
+}
